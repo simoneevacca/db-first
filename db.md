@@ -24,9 +24,9 @@ Table name: auto
 - prezzo | MEDIUMINT | NULL         
 - è_trattabile | TINYINT | NULL        <!-- valore binario 1 = si, 0 = no -->
 - colore | VARCHAR(15) | NULL      
-- foto_1 | VARCHAR(255) | NULL | DFAULT('https:foto-di-default-.jpg')     
+- foto_1 | VARCHAR(255) | NULL | DFAULT('https:foto-di-default.jpg')     
 - foto_2 | VARCHAR(255) | NULL
 - foto_3 | VARCHAR(255) | NULL
 - foto_4 | VARCHAR(255) | NULL
 - foto_5 | VARCHAR(255) | NULL
-- note | TEXT
+- note | TEXT | NULL
